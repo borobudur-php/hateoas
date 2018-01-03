@@ -1,0 +1,26 @@
+{
+    "name": "borobudur/hateoas",
+    "type": "library",
+    "description": "Borobudur Hateoas Transformer Component",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "require": {
+        "borobudur/transformer": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Borobudur\\Component\\Hateoas\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
